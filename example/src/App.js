@@ -1,10 +1,8 @@
 import React from 'react'
-
-import { ExampleComponent } from 'react-game-of-life'
-import 'react-game-of-life/dist/index.css'
+import { ReactGameOfLife } from 'react-game-of-life'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ReactGameOfLife delay={1000} color='#EEE' />
 }
 
 export default App
