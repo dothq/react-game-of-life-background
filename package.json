@@ -4,7 +4,7 @@
   "description": "React component for game of life visualisation as background",
   "author": "martyns0n",
   "license": "MIT",
-  "repository": "martyns0n/react-game-of-life",
+  "repository": "martyns0n/react-game-of-life-background",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

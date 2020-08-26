@@ -1,8 +1,8 @@
 import React from 'react'
-import { ReactGameOfLife } from 'react-game-of-life'
+import { GameOfLifeBackground } from 'react-game-of-life-background'
 
 const App = () => {
-  return <ReactGameOfLife delay={1000} color='#EEE' />
+  return <GameOfLifeBackground delay={1000} color='#EEE' />
 }
 
 export default App

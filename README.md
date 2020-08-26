@@ -1,13 +1,13 @@
-# react-game-of-life
+# react-game-of-life-background
 
 > React component for game of life visualisation
 
-[![NPM](https://img.shields.io/npm/v/react-game-of-life.svg)](https://www.npmjs.com/package/react-game-of-life) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-game-of-life-background.svg)](https://www.npmjs.com/package/react-game-of-life-background) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-game-of-life
+npm install --save react-game-of-life-background
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save react-game-of-life
 ```jsx
 import React, { Component } from 'react'
 
-import ReactGameOfLife from 'react-game-of-life'
-import 'react-game-of-life/dist/index.css'
+import GameOfLifeBackground from 'react-game-of-life-background'
 
 class Example extends Component {
   render() {
-    return <ReactGameOfLife delay={1000} color='#EEE' />
+    return <GameOfLifeBackground delay={1000} color='#EEE' />
   }
 }
 ```

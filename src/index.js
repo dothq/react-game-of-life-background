@@ -3,7 +3,7 @@ import React from 'react'
 const RESOLUTION = 8
 const { screen } = window
 
-export const ReactGameOfLife = ({ interval = 1000, color = 'black' }) => {
+export const GameOfLifeBackground = ({ interval = 1000, color = 'black' }) => {
   const buildGrid = React.useCallback((colsNum, rowsNum) => {
     return new Array(colsNum)
       .fill(null)
