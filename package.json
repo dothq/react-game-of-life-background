@@ -1,6 +1,6 @@
 {
   "name": "react-game-of-life-background",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React component for game of life visualisation as background",
   "author": "martyns0n",
   "license": "MIT",

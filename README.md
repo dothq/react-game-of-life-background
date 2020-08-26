@@ -24,6 +24,12 @@ class Example extends Component {
 }
 ```
 
+## Demo
+
+![](./screenshot.png)
+
+Look at ➡ https://someta.site/react-game-of-life-background/
+
 ## License
 
 MIT © [martyns0n](https://github.com/martyns0n)
