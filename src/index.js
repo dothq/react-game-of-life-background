@@ -1,7 +1,6 @@
 import React from 'react'
 
 const RESOLUTION = 8
-const { screen } = window
 
 export const GameOfLifeBackground = ({ interval = 1000, color = 'black' }) => {
   const buildGrid = React.useCallback((colsNum, rowsNum) => {
@@ -78,6 +77,7 @@ export const GameOfLifeBackground = ({ interval = 1000, color = 'black' }) => {
   React.useEffect(() => {
     const canvas = document.getElementById('game-of-life')
     const ctx = canvas.getContext('2d')
+    const { screen } = window
 
     canvas.width = screen.width
     canvas.height = screen.height
