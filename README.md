@@ -15,12 +15,12 @@ npm install --save react-game-of-life
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-game-of-life'
+import ReactGameOfLife from 'react-game-of-life'
 import 'react-game-of-life/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ReactGameOfLife delay={1000} color='#EEE' />
   }
 }
 ```
